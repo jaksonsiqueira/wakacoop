@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.*;
 public interface PautaAPI {
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
-    PautaCadastroResponse cadastraPauta(@RequestBody NovaPautaRequest novaPauta);
+    PautaCadastradaResponse cadastraPauta(@RequestBody NovaPautaRequest novaPauta);
 
 }

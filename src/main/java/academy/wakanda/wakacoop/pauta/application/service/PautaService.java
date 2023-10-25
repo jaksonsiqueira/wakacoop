@@ -1,8 +1,8 @@
 package academy.wakanda.wakacoop.pauta.application.service;
 
 import academy.wakanda.wakacoop.pauta.application.api.NovaPautaRequest;
-import academy.wakanda.wakacoop.pauta.application.api.PautaCadastroResponse;
+import academy.wakanda.wakacoop.pauta.application.api.PautaCadastradaResponse;
 
 public interface PautaService {
-    PautaCadastroResponse cadastraPauta(NovaPautaRequest novaPauta);
+    PautaCadastradaResponse cadastraPauta(NovaPautaRequest novaPauta);
 }
